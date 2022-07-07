@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #fdf6e3;
 }
 
 *, *::before, *::after {
@@ -30,11 +31,11 @@ ul, nav {
   color: #93a1a1;
 }
 
-div {
+.wrapper > .div {
   background-color: #b58900;
 }
 
-div strong:nth-child(2) {
+.wrapper .dfn strong:nth-child(2) {
   color: #fff;
 }
 
