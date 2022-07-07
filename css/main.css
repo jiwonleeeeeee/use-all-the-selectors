@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  background-color: #fdf6e3;
 }
 
 *, *::before, *::after {
@@ -31,11 +30,11 @@ ul, nav {
   color: #93a1a1;
 }
 
-.wrapper > .div {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.wrapper .dfn strong:nth-child(2) {
+.dfn + strong {
   color: #fff;
 }
 
@@ -47,7 +46,7 @@ ul li {
   background-color: #2694d8;
 }
 
-[rel="external"] {
+a[rel="external"] {
   background-color: #2694d8;
 }
 
@@ -67,6 +66,6 @@ ol li:last-child {
   background-color: #586e75;
 }
 
-.types li:nth-child(3rd) {
+.types li:nth-child(3n) {
   background-color: #d04b16;
 }
